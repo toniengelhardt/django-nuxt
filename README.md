@@ -1,7 +1,7 @@
 # django-nuxt
 Template for a Django/Nuxt PWA with axios, vuex, REST, JWT auth, markdown blog, etc.
 
-## What is this?
+### What is this?
 I'm working on a Django Nuxt PWA and it is tedious to get all the basic workflows going. While there is a lot of material out there on how to build a simple app, it's hard to figure out more advanced concepts, especially when you build your first Django/Nuxt app. This is an attempt to create a template for a Django/Nuxt PWA that has all essentials included and you can basically just clone it and have all the boilerplate working:
 
 - Django backend with REST API
@@ -11,7 +11,8 @@ I'm working on a Django Nuxt PWA and it is tedious to get all the basic workflow
 - Fontawesome integration
 - Markdown blog with lazy image loading (based on https://github.com/marinaaisa/nuxt-markdown-blog-starter)
 
-Stack: Python 3, PostgreSQL, Django 3, RESTframework, Vue 2, Axios, Vuex, Nuxt, HTML5, SCSS.
+### Stack 
+Python 3, PostgreSQL, Django 3, RESTframework, Vue 2, Axios, Vuex, Nuxt, HTML5, SCSS.
 
 ## Django
 
@@ -21,11 +22,7 @@ TBD...
 
 TBD...
 
-## HTTP/2
-
-Make the app fast.
-
-## Cookie Consent
+#### Cookie Consent
 
 Simple popup to handle GDPR and cookie consent.
 
@@ -55,6 +52,10 @@ Emails that don't end up in the spam folder (free up to 100 emails/day). Used fo
 
 Coming later...
 
+## HTTP/2
+
+Serve via HTTP/2 to make the app fast.
+
 ## Hosting
 
 Digital Ocean, Ubuntu, NGINX, Gunicorn, PM2.
@@ -65,4 +66,4 @@ Generate daily/weekly/monthly backups automatically with cron and a bash script.
 
 ## SEO
 
-All the easy things for Search Engine Optimization.
+All the easy things for Search Engine Optimization: meta tags, page speed, etc.
