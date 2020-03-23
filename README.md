@@ -1,15 +1,17 @@
 # django-nuxt
 Template for a Django/Nuxt PWA with axios, vuex, REST, JWT auth, markdown blog, etc.
 
-## Why?
-I'm working on a Django Nuxt PWA and it is hard to compile all the resources. While there is a lot of material out there on how to build a simple app, it's tedious to figure out more advanced concepts, especially when you build your first Django/Nuxt app. This is an attempt to create a template for a Django/Nuxt PWA that has all essentials included and you can pick what you need:
+## What is this?
+I'm working on a Django Nuxt PWA and it is tedious to get all the basic workflows going. While there is a lot of material out there on how to build a simple app, it's hard to figure out more advanced concepts, especially when you build your first Django/Nuxt app. This is an attempt to create a template for a Django/Nuxt PWA that has all essentials included and you can basically just clone it and have all the boilerplate working:
 
 - Django backend with REST API
 - Vue/Nuxt Universal PWA frontend with axios request library
 - JSON Web Token (JWT) authentication (local, Facebook, Google)
-- Markdown blog
+- Password reset with magic links
+- Fontawesome integration
+- Markdown blog with lazy image loading (based on https://github.com/marinaaisa/nuxt-markdown-blog-starter)
 
-Stack: Python 3, Django 3, RESTframework, Vue 2, Vuex, Nuxt, Axios, HTML5, SCSS.
+Stack: Python 3, PostgreSQL, Django 3, RESTframework, Vue 2, Axios, Vuex, Nuxt, HTML5, SCSS.
 
 ## Django
 
@@ -18,6 +20,14 @@ TBD...
 ## Vue/Nuxt
 
 TBD...
+
+## HTTP/2
+
+Make the app fast.
+
+## Cookie Consent
+
+Simple popup to handle GDPR and cookie consent.
 
 ## Blog 
 
@@ -29,14 +39,30 @@ Social sharing for blog posts.
 
 Email subscription for new posts.
 
+## Google Analytics
+
+TBD...
+
 ## Sentry
 
 Issue tracking for frontend and backend (free for basic use).
 
 ## Sendgrid
 
-Emails that don't end up in the spam folder (free up to 100 emails/day).
+Emails that don't end up in the spam folder (free up to 100 emails/day). Used for email confirmation and password reset.
+
+## Websockets
+
+Coming later...
 
 ## Hosting
 
-Digital Ocean
+Digital Ocean, Ubuntu, NGINX, Gunicorn, PM2.
+
+## Automatic DB backups with cron
+
+Generate daily/weekly/monthly backups automatically with cron and a bash script.
+
+## SEO
+
+All the easy things for Search Engine Optimization.
