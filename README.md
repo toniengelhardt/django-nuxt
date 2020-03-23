@@ -26,6 +26,27 @@ TBD...
 
 Simple popup to handle GDPR and cookie consent.
 
+## Authentication
+
+#### Registration
+
+Authentication with @nuxtjs/auth module and django_restframework_jwt module. Customized to use auth- and refresh tokens for enhanced security.
+
+Strategies:
+
+- Local
+- Social
+  - Facebook
+  - Google
+
+#### Login/Logout
+
+Including wiping of the vuex store and destroying of cookies.
+
+#### Password reset
+
+Use Magic Links and in-app password change to reset the password (please report security issues if you find any).
+
 ## Blog 
 
 #### AddThis
