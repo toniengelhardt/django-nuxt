@@ -1,0 +1,10 @@
+Django==3.0.4  # ♥
+django-cors-headers==3.2.1  # CORS headers for multi-port apps.
+django-filter==2.2.0  # Filters required for REST filter backends.
+djangorestframework==3.11.0  # REST for Django.
+djangorestframework-jwt==1.11.0  # JWT authentication for REST framework.
+gunicorn==20.0.4  # Python WSGI HTTP Server for UNIX.
+pillow==7.0.0  # Python imaging library.
+psycopg2-binary==2.8.4  # Postgres adapter.
+sendgrid==6.1.3  # Email API.
+sentry-sdk==0.14.2  # Error monitoring.

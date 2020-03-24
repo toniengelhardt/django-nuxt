@@ -1,0 +1,15 @@
+[Unit]
+Description=gunicorn daemon
+Requires=gunicorn.socket
+After=network.target
+
+[Service]
+User=root
+Group=nogroup
+WorkingDirectory=/webapps/django-nuxt
+ExecStart=/webapps/django-nuxt/env/bin/gunicorn --timeout 60 --workers 3 \
+    --bind unix:/webapps/django-nuxt/run/gunicorn.sock core.wsgi:application \
+    --log-level error --error-logfile /webapps/django-nuxt/logs/gunicorn-error.log
+
+[Install]
+WantedBy=multi-user.target
