@@ -1,4 +1,4 @@
-Django==3.0.4  # ♥
+Django==3.0.7  # ♥
 django-cors-headers==3.2.1  # CORS headers for multi-port apps.
 django-filter==2.2.0  # Filters required for REST filter backends.
 djangorestframework==3.11.0  # REST for Django.
